@@ -19,3 +19,8 @@ body {
   background: white;
   color: black;
 }
+h1,
+h2,
+h3 {
+  font-family: "Space Grotesk", sans-serif;
+}
