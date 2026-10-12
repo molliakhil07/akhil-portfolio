@@ -11,16 +11,6 @@ const projects = [
   },
   {
     number: "02",
-    title: "ScanKart",
-    category: "Mobile Application",
-    description:
-      "A smart supermarket checkout application designed to reduce traditional checkout queues through barcode scanning, product information retrieval and digital payments.",
-    technologies: ["Mobile App", "Barcode", "Database", "UPI"],
-    live: "",
-    github: "https://github.com/molliakhil07/ScanKart",
-  },
-  {
-    number: "03",
     title: "ChatterBox",
     category: "Web Application",
     description:
@@ -28,6 +18,16 @@ const projects = [
     technologies: ["React", "TypeScript", "Node.js", "Express.js", "PostgreSQL", "Prisma"],
     live: "https://chatter-box-home.vercel.app/",
     github: "https://github.com/molliakhil07/chatter-box.git",
+  },
+  {
+    number: "03",
+    title: "ScanKart",
+    category: "Mobile Application",
+    description:
+      "A smart supermarket checkout application designed to reduce traditional checkout queues through barcode scanning, product information retrieval and digital payments.",
+    technologies: ["Mobile App", "Barcode", "Database", "UPI"],
+    live: "",
+    github: "https://github.com/molliakhil07/ScanKart",
   },
 ]
 
