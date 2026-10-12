@@ -1,23 +1,32 @@
+
 const projects = [
   {
     number: "01",
+    title: "Chatter Box",
+    category: "Personal Messaging Application",
+    description:
+      "A full-stack personal messaging application built with real-time communication. Includes user authentication, email verification, password reset, messaging, reply interactions, and message management.",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Prisma",
+      "Socket.IO",
+    ],
+    live: "",
+    github: "https://github.com/molliakhil07/chatter-box",
+  },
+  {
+    number: "02",
     title: "Kalavani",
     category: "E-Commerce Website",
     description:
       "A modern e-commerce website for a traditional Kanchipuram silk saree business, featuring product browsing, product details, cart functionality and WhatsApp ordering.",
     technologies: ["React", "TypeScript", "CSS", "Vite"],
-     live: "https://kalvani.vercel.app/",
-    github: "https://github.com/molliakhil07/Kalvani",
-  },
-  {
-    number: "02",
-    title: "ChatterBox",
-    category: "Web Application",
-    description:
-      "Chatter Box is a real-time personal messaging application designed to provide a secure and seamless communication experience. It features user authentication, email verification, password recovery, and instant message exchange through a responsive interface.",
-    technologies: ["React", "TypeScript", "Node.js", "Express.js", "PostgreSQL", "Prisma"],
-    live: "https://chatter-box-home.vercel.app/",
-    github: "https://github.com/molliakhil07/chatter-box.git",
+    live: "https://kalvani.vercel.app/",
+    github: "https://github.com/molliakhil07/kalavani",
   },
   {
     number: "03",
@@ -35,19 +44,15 @@ function Projects() {
   return (
     <section id="projects" className="section projects-section">
       <div className="section-container">
-
         <div className="section-heading">
           <span>03</span>
           <h2>Projects</h2>
         </div>
 
         <div className="projects-list">
-
           {projects.map((project) => (
             <article className="project-card" key={project.number}>
-
               <div className="project-top">
-
                 <span className="project-number">
                   {project.number}
                 </span>
@@ -55,7 +60,6 @@ function Projects() {
                 <span className="project-category">
                   {project.category}
                 </span>
-
               </div>
 
               <h3>{project.title}</h3>
@@ -63,44 +67,35 @@ function Projects() {
               <p>{project.description}</p>
 
               <div className="project-tech">
-
                 {project.technologies.map((technology) => (
-                  <span key={technology}>
-                    {technology}
-                  </span>
+                  <span key={technology}>{technology}</span>
                 ))}
-
               </div>
 
               <div className="project-links">
-
                 {project.live && (
-  <a
-    href={project.live}
-    className="project-button"
-    target="_blank"
-    rel="noreferrer"
-  >
-    Live Demo →
-  </a>
-)}
+                  <a
+                    href={project.live}
+                    className="project-button"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live Demo →
+                  </a>
+                )}
 
                 <a
-  href={project.github}
-  className="project-button secondary-project-button"
-  target="_blank"
-  rel="noreferrer"
->
-  GitHub →
-</a>
-
+                  href={project.github}
+                  className="project-button secondary-project-button"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub →
+                </a>
               </div>
-
             </article>
           ))}
-
         </div>
-
       </div>
     </section>
   )
