@@ -19,6 +19,16 @@ const projects = [
     live: "",
     github: "https://github.com/molliakhil07/ScanKart",
   },
+  {
+    number: "03",
+    title: "ChatterBox",
+    category: "Web Application",
+    description:
+      "Chatter Box is a real-time personal messaging application designed to provide a secure and seamless communication experience. It features user authentication, email verification, password recovery, and instant message exchange through a responsive interface.",
+    technologies: ["React", "TypeScript", "Node.js", "Express.js", "PostgreSQL", "Prisma"],
+    live: "https://chatter-box-home.vercel.app/",
+    github: "https://github.com/molliakhil07/chatter-box.git",
+  },
 ]
 
 function Projects() {
