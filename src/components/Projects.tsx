@@ -15,7 +15,7 @@ const projects = [
       "Prisma",
       "Socket.IO",
     ],
-    live: "",
+    live: "https://molli-portfolio.vercel.app/",
     github: "https://github.com/molliakhil07/chatter-box",
   },
   {
