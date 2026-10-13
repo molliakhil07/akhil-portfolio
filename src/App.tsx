@@ -8,24 +8,7 @@ import Projects from "./components/Projects"
 import Education from "./components/Education"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
-
 function App() {
-  return (
-    <>
-      <Navbar />
-
-      <CustomCursor />
-
-      <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Projects/>
-        <Education/>
-        <Contact/>
-      </main>
-      <Footer />
-    </>
-  )
+  return <><Navbar /><CustomCursor /><main><Hero /><About /><Skills /><Projects /><Education /><Contact /></main><Footer /></>
 }
 export default App

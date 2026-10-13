@@ -1,49 +1,14 @@
 function About() {
   return (
-    <section id="about" className="section about-section">
-      <div className="section-container">
-
-        <div className="section-heading">
-          <span>01</span>
-          <h2>About Me</h2>
-        </div>
-
-        <div className="about-content">
-
-          <div className="about-intro">
-            <h3>
-              Curious mind.
-              <span> Constant builder.</span>
-            </h3>
-          </div>
-
-          <div className="about-text">
-
-            <p>
-              I'm Molli Akhil Kumar, a Computer Science student
-              passionate about software development and technology.
-            </p>
-
-            <p>
-              I enjoy creating applications and websites that solve
-              practical problems. I believe the best way to learn
-              technology is by building real projects and experimenting
-              with new ideas.
-            </p>
-
-            <p>
-              Currently, I'm focused on improving my programming,
-              web development and problem-solving skills while
-              building projects that can make a real-world impact.
-            </p>
-
-          </div>
-
-        </div>
-
+    <section id="about" className="section"><div className="section-container">
+      <div className="section-heading"><div><span className="section-index">01 / INTRODUCTION</span><h2>About me</h2></div><p className="section-aside">A little context, a lot of curiosity.</p></div>
+      <div className="about-grid">
+        <article className="surface-card about-statement-card"><span className="card-kicker">THE MINDSET</span><h3>Curious mind.<br /><span>Constant builder.</span></h3><div className="statement-mark" aria-hidden="true">“</div></article>
+        <article className="surface-card about-copy-card"><span className="card-kicker">WHO I AM</span><p>I'm Molli Akhil Kumar, a Computer Science student passionate about software development and technology.</p><p>I enjoy creating applications and websites that solve practical problems. I believe the best way to learn technology is by building real projects and experimenting with new ideas.</p><p>Currently, I'm focused on improving my programming, web development and problem-solving skills while building projects that can make a real-world impact.</p></article>
+        <div className="about-detail-card surface-card"><span className="detail-label">APPROACH</span><strong>Learn → Build → Improve</strong><span className="detail-note">One project at a time.</span></div>
+        <div className="about-detail-card surface-card"><span className="detail-label">INTEREST</span><strong>Useful software</strong><span className="detail-note">Technology with a purpose.</span></div>
       </div>
-    </section>
+    </div></section>
   )
 }
-
 export default About
