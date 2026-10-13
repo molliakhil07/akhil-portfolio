@@ -2,8 +2,8 @@ const skillGroups = [
   { number: "01", title: "Languages", note: "The foundations", skills: ["Python", "Java", "JavaScript", "TypeScript"] },
   { number: "02", title: "Frontend", note: "Interfaces & experience", skills: ["HTML", "CSS", "React", "Vite", "Responsive Design"] },
   { number: "03", title: "Backend", note: "APIs & communication", skills: ["Node.js", "Express", "REST APIs", "Socket.IO"] },
-  { number: "04", title: "Data", note: "Storage & data access", skills: ["PostgreSQL", "SQL", "Prisma ORM"] },
-  { number: "05", title: "Tools", note: "Everyday workflow", skills: ["Git", "GitHub", "VS Code", "Vercel"] },
+  { number: "04", title: "Data", note: "Storage & data access", skills: ["PostgreSQL", "SQL", "MongoDB", "Supabase", "Prisma ORM"] },
+  { number: "05", title: "Tools", note: "Everyday workflow", skills: ["Git / GitHub", "VS Code", "Vercel", "Androidstudios"] },
 ]
 function Skills() {
   return (
